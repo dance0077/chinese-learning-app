@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
-    base: '/语文大通关v1_proxy2/',  // GitHub Pages base path
+    base: '/chinese-learning-app/',  // GitHub Pages base path
     define: {
       // Ensure API_KEY is always a string, even if empty, to prevent "process is not defined" error in browser
       'process.env.API_KEY': JSON.stringify(env.API_KEY || ''),
